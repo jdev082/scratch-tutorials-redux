@@ -136,15 +136,8 @@ export default function Layout({ children, tab, title }) {
         >
           <Collapse in={opened}>{navButtons}</Collapse>
           <Space h="xl" />
-          <Alert icon={<FiAlertTriangle />} title="EOL update" color="orange">
-            Although it is sad to see it go, Scratch Tutorials has reached its
-            end of life. The site will soon be taken down, so please save
-            tutorials that you don't want to get lost. If you are looking for an
-            alternative,{' '}
-            <Anchor href="https://thedailygobo.scratchtools.app/">
-              The Daily Gobo
-            </Anchor>{' '}
-            is a great site that is similar to Scratch Tutorials.
+          <Alert icon={<FiAlertTriangle />} title="Redux!" color="green">
+            While it's sad to see the original version go, Scratch Tutorials Redux is being set up at this time!
           </Alert>
           <Space h="xl" />
           {children}
